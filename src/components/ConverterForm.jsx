@@ -16,8 +16,8 @@ const ConverterForm = () => {
 
     // Function to fetch the exchange rate and update the result
     const getExchangeRate = async () => {
-        const API_KEY = "2f75d384e37a2e792476a15b";
-        const API_URL = `https://v6.exchangerate-api.com/v6/${API_KEY}/pair/${fromCurrency}/${toCurrency}`;
+        const API_KEY = "";
+        const API_URL = ``;
 
         if (isLoading) return;
         setIsLoading(true);
